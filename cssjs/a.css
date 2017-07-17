@@ -13,7 +13,7 @@ body
 	width: 50%;
 }
 
-a
+a,a:visited
 {
 	text-decoration:none;
 }
