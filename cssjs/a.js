@@ -4,7 +4,7 @@
 		var VarBody = (document.getElementsByTagName("body"))[0];//返回的是数组
 		var VarDivProb= document.createElement("div");
 		VarDivProb.id = "probe";
-		VarDivProb.style="width:1cm;";
+		VarDivProb.style="width:1cm;backgroundColor:red;";
 		VarBody.appendChild(VarDivProb);
 		//以上创建一个探针，以供下面计算屏幕
 
