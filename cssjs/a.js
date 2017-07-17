@@ -1,18 +1,26 @@
-
+ï»¿		
+		
+		
+		var VarBody = (document.getElementsByTagName("body"))[0];//è¿”å›çš„æ˜¯æ•°ç»„
+		var VarDivProb= document.createElement("div");
+		VarDivProb.id = "probe";
+		VarDivProb.style="width:1cm;";
+		VarBody.appendChild(VarDivProb);
+		//ä»¥ä¸Šåˆ›å»ºä¸€ä¸ªæ¢é’ˆï¼Œä»¥ä¾›ä¸‹é¢è®¡ç®—å±å¹•
 
 		var windoww=window.innerWidth|| document.documentElement.clientWidth|| document.body.clientWidth;
 		var windowh=window.innerHeight|| document.documentElement.clientHeight|| document.body.clientHeight;
-		var probeoffsetwidth = document.getElementById("probe").offsetWidth;//»ñÈ¡Ì½ÕëdivµÄÊµ¼ÊÆ½Ãæ¿í¶È
-		var windowwcm = (screen.width / probeoffsetwidth).toFixed(1);//¼ÆËãµÃµ½ÆÁÄ»µÄÀåÃ×Êı
-		//ÒÔÉÏÎª»ñÈ¡ÆÁÄ»´óĞ¡
+		var probeoffsetwidth = document.getElementById("probe").offsetWidth;//è·å–æ¢é’ˆdivçš„å®é™…å¹³é¢å®½åº¦
+		var windowwcm = (screen.width / probeoffsetwidth).toFixed(1);//è®¡ç®—å¾—åˆ°å±å¹•çš„å˜ç±³æ•°
+		//ä»¥ä¸Šä¸ºè·å–å±å¹•å¤§å°
 		
 		function FGoodWidth(id)
 		{
 			if( windoww<windowh )document.getElementById(id).style.width="99%";
-			//Ö»ÒªÊÇÊúÆÁ×´Ì¬¡£
+			//åªè¦æ˜¯ç«–å±çŠ¶æ€ã€‚
 			if( windoww>windowh && windowwcm<=38)document.getElementById(id).style.width=windoww*0.75+"px";
-			//cmĞ¡ÓÚ 38 ÀåÃ×£¬Í¨³£ÊÇºáÆÁµÄÒÆ¶¯Éè±¸»òµÍ·ÖµçÄÔ
+			//cmå°äº 38 å˜ç±³ï¼Œé€šå¸¸æ˜¯æ¨ªå±çš„ç§»åŠ¨è®¾å¤‡æˆ–ä½åˆ†ç”µè„‘
 			if( windoww>windowh && windowwcm>38)document.getElementById(id).style.width=windoww*0.5+"px";
-			//µ÷ÕûÕ¹Ê¾ÑùÊ½£¬Èç¹ûÊÇÒÆ¶¯Éè±¸¡¾¿í¶È´óÓÚ¸ß¶ÈÊÇºáÆÁ£¬¿í¶ÈĞ¡ÓÚ 38 ÀåÃ×£¬Í¨³£ÊÇÒÆ¶¯Éè±¸£¬»òÕßµÍ·Ö±æÂÊµÄµçÄÔ
+			//è°ƒæ•´å±•ç¤ºæ ·å¼ï¼Œå¦‚æœæ˜¯ç§»åŠ¨è®¾å¤‡ã€å®½åº¦å¤§äºé«˜åº¦æ˜¯æ¨ªå±ï¼Œå®½åº¦å°äº 38 å˜ç±³ï¼Œé€šå¸¸æ˜¯ç§»åŠ¨è®¾å¤‡ï¼Œæˆ–è€…ä½åˆ†è¾¨ç‡çš„ç”µè„‘
 		}
 		FGoodWidth("div-content");

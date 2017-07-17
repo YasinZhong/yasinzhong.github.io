@@ -1,22 +1,28 @@
+
+
 ---
 layout: default
 title: 小哲学家
 ---
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<link type="text/css" rel="stylesheet" href="/cssjs/a.css"/>
 
-<body>
-	<div id="div-content">
-		<h2>{{ page.title }}</h2>
-		<p>                 </p>
-　　	<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　	</ul>
-	<div>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link type="text/css" rel="stylesheet" href="/cssjs/a.css"/>
+	</head>
+	
+	<body>
+		<div id="div-content">
+			<h2 text-align="center">{{ page.title }}</h2>
+			<p>                 </p>
+　　		<ul>
+　　　　		{% for post in site.posts %}
+　　　　　　	<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　		{% endfor %}
+　　		</ul>
+		<div>
 
-	<div style="width:1cm;" id="probe"></div>
-	<script type="text/javascript" src="/cssjs/a.js"></script>
-
-</body>
+		
+		<script type="text/javascript" src="/cssjs/a.js"></script>
+	</body>
+</html>
