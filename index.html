@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 小哲学家
+title: Ysin zhong
 ---
 
 <html>
@@ -11,8 +11,7 @@ title: 小哲学家
 	
 	<body>
 		<div id="div-content">
-			<h2 text-align="center">{{ page.title }}</h2>
-			<p>                 </p>
+			<h2>{{ page.title }}</h2>
 　　		<ul>
 　　　　		{% for post in site.posts %}
 　　　　　　	<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
