@@ -13,14 +13,13 @@ title: Yasin Zhong|Blog
 	<body>
 		<div id="div-content">
 			<br/><br/>
-			All posts
-　　		<ul>
+　　		<dl>All posts
 　　　　		{% for post in site.posts %}
 　　　　　　	<li>{{ post.date | date_to_string }}
 					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 				</li>
 　　　　		{% endfor %}
-　　		</ul>
+　　		</dl>
 		<div>
 
 		
