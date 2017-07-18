@@ -3,13 +3,11 @@
 body
 {
 	color:rgb(100,100,100);
-	text-align:center;
 }
 
 #div-content
 {
 	margin: auto;
-	margin-top: 1em;
 	height: auto;
 	width: 50%;
 }
