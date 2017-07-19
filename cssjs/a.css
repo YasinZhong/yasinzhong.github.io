@@ -17,3 +17,8 @@ a,a:visited
 	text-decoration:none;
 	color:rgb(42,122,226);
 }
+
+h1,h2,h3,h4,h5,h5
+{
+	font-weight: lighter; 
+}
