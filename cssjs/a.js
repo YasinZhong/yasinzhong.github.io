@@ -16,7 +16,7 @@
 		
 		function FGoodWidth(id)
 		{
-			if( windoww<windowh )document.getElementById(id).style.width="99%";
+			if( windoww<windowh )document.getElementById(id).style.width="90%";
 			//只要是竖屏状态。
 			if( windoww>windowh && windowwcm<=38)document.getElementById(id).style.width=windoww*0.75+"px";
 			//cm小于 38 厘米，通常是横屏的移动设备或低分电脑
