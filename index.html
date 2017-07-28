@@ -15,9 +15,9 @@ title: Yasin Zhong|Blog
 			<br/><br/>
 　　		<ol>
 				看法
-　　　　		{% for post in site.postsMymind %}
-　　　　　　	<li>{{ post.date | date_to_string }}
-					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+　　　　		{% for postmm in site.postsMymind %}
+　　　　　　	<li>{{ postmm.date | date_to_string }}
+					<a href="{{ site.baseurl }}{{ postmm.url }}">{{ postmm.title }}</a>
 				</li>
 　　　　		{% endfor %}
 
