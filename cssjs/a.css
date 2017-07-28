@@ -3,8 +3,6 @@
 body
 {
 	color:rgb(100,100,100);
-	box-shadow: 3px 3px 10px #888888;
-	padding:10px;
 }
 
 #div-content
@@ -12,6 +10,8 @@ body
 	margin: auto;
 	height: auto;
 	width: 50%;
+	box-shadow: 3px 3px 10px #888888;
+	padding:10px;
 }
 
 a,a:visited
