@@ -14,20 +14,13 @@ title: Yasin Zhong|Blog
 		<div id="div-content">	
 			<br/><br/>
 　　		<ol>
-				看法
-　　　　		{% for postmm in site.postsMymind %}
-　　　　　　	<li>{{ postmm.date | date_to_string }}
-					<a href="{{ site.baseurl }}{{ postmm.url }}">{{ postmm.title }}</a>
-				</li>
-　　　　		{% endfor %}
-
-				自卖与自夸
 　　　　		{% for post in site.posts %}
 　　　　　　	<li>{{ post.date | date_to_string }}
 					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 				</li>
 　　　　		{% endfor %}
 　　		</ol>
+
 		<div>
 		<script type="text/javascript" src="/cssjs/a.js"></script>
 	</body>
