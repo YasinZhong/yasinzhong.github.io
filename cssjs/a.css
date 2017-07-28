@@ -14,6 +14,12 @@ body
 	box-shadow: 3px 3px 10px #888888;
 	padding:10px;
 }
+#div-header
+{
+	box-shadow: 3px 0px 10px #888888;
+}
+
+
 
 a,a:visited
 {
