@@ -5,7 +5,7 @@ body
 	color:rgb(100,100,100);
 }
 
-#div-content
+#div-content,#div-header
 {
 	margin: auto;
 	height: auto;

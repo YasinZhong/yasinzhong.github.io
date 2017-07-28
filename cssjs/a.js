@@ -24,3 +24,4 @@
 			//调整展示样式，如果是移动设备【宽度大于高度是横屏，宽度小于 38 厘米，通常是移动设备，或者低分辨率的电脑
 		}
 		FGoodWidth("div-content");
+		FGoodWidth("div-content");
