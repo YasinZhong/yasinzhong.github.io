@@ -1,4 +1,4 @@
-﻿		
+		
 		
 		
 		var VarBody = (document.getElementsByTagName("body"))[0];//返回的是数组
