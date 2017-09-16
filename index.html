@@ -2,11 +2,18 @@
 layout: default
 title: Yasin Zhong|Blog
 ---
-<br/><br/>
-<ol>
+<div style="text-align: center;">
+  
+  <div style="text-align: left">
+    <br/><br/>
+    <ol>
 　	{% for post in site.posts %}
 　　<li>{{ post.date | date_to_string }}
-		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	</li>
 　　{% endfor %}
-</ol>
+    </ol>
+  </div>
+
+</div>
+
