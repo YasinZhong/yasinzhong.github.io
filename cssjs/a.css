@@ -16,12 +16,10 @@ body
 	width: 50%;
 	box-shadow: 3px 3px 10px #888888;
 	padding:10px;
-	text-align:left;
 }
 #div-header
 {
 	box-shadow: 3px 0px 10px #888888;
-	text-align:center;
 }
 
 
