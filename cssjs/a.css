@@ -3,12 +3,12 @@
 body
 {
 	color:rgb(100,100,100);
-	background-color:rgb(250,250,250);
+	background-color:rgb(240,240,240);
 }
 
 #div-content,#div-header
 {
-    background-color:white;
+	background-color:rgb(250,250,250);
 	margin: auto;
 	margin-bottom: 0.7em;
 	height: auto;
