@@ -30,7 +30,7 @@ body
 	border-radius:7px;
 	-moz-border-radius:7px; /* Old Firefox */
 	
-	padding-left:1 em;
+	padding:0.3px 0px 0.3px 1em;
 }
 
 a,a:visited
