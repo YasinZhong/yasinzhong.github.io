@@ -15,6 +15,9 @@ body
 	width: 50%;
 	box-shadow: 3px 3px 10px #888888;
 	padding:10px;
+	
+	border-radius:7px;
+	-moz-border-radius:7px; /* Old Firefox */
 }
 #div-header
 {
@@ -26,6 +29,7 @@ body
 	border:1px solid;
 	border-radius:7px;
 	-moz-border-radius:7px; /* Old Firefox */
+	margin-top:0.5 em;
 }
 
 a,a:visited
