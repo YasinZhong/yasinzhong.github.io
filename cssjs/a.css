@@ -1,5 +1,6 @@
 
 
+
 body
 {
 	color:rgb(100,100,100);
@@ -8,7 +9,7 @@ body
 
 p 
 {
-  text-height:2em;
+  line-height:2em;
 }
 
 #div-content,#div-header
