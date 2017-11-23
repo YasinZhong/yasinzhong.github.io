@@ -6,6 +6,11 @@ body
 	background-color:rgb(240,240,240);
 }
 
+p 
+{
+  text-height:1em;
+}
+
 #div-content,#div-header
 {
 	background-color:rgb(250,250,250);
