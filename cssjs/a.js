@@ -29,3 +29,4 @@
 		}
 		FGoodWidth("div-content"); 
 		FGoodWidth("div-header");
+		FGoodWidth("lv-container");
