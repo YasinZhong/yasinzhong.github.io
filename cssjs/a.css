@@ -40,6 +40,9 @@ q
 li
 {
 	border:1px solid darkgray;
+	border-radius:7px;
+	-moz-border-radius:7px; /* Old Firefox */
+	
 	padding:0.3px 0px 0.3px 1em;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
@@ -48,8 +51,6 @@ li
 .LiC1
 {
 	border:1px solid;
-	border-radius:7px;
-	-moz-border-radius:7px; /* Old Firefox */
 	
 	padding:0.3px 0px 0.3px 1em;
 }
