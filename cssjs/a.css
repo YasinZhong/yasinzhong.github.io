@@ -9,8 +9,8 @@ body
 
 p 
 {
-  line-height:1.5em;
-  text-indent:2.2em;
+  line-height:1.8em;
+  text-indent:2em;
 }
 q
 {
@@ -46,11 +46,6 @@ li
 	padding:0.3px 0px 0.3px 1em;
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
-}
-
-.LiC1
-{
-	
 }
 
 a,a:visited
