@@ -10,7 +10,7 @@ body
 p 
 {
   line-height:1.5em;
-  text-indent:2em;
+  text-indent:2.2em;
 }
 q
 {
@@ -39,7 +39,9 @@ q
 
 li
 {
-	border:1px solid;
+	border:1px solid darkgray;
+	padding:0.3px 0px 0.3px 1em;
+	margin-bottom: 1em;
 }
 
 .LiC1
