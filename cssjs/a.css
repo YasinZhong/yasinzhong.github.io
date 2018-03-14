@@ -12,9 +12,12 @@ p
   line-height:1.74em;
   text-indent:2em;
 }
+
 q
 {
 	font-style:italic;
+	display:block;
+	text-align: center;
 }
 
 #div-content,#div-header
@@ -58,7 +61,8 @@ h1,h2,h3,h4,h5,h5
 {
 	font-weight: lighter; 
 	color:rgb(0,0,0);
-	text-align:center;
+	margin-top: 3em;
+	text-align: center;
 }
 
 img
