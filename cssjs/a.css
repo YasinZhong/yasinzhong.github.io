@@ -46,9 +46,12 @@ li
 	border-radius:7px;
 	-moz-border-radius:7px; /* Old Firefox */
 	
-	padding:0.3px 0px 0.3px 1em;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
+	padding-top: 0.4px;
+	padding-bottom: 0.4px;
+	padding-left: 1em;
+	
+	margin-bottom: 0.6em;
+	margin-top: 0.6em;
 }
 
 a,a:visited
