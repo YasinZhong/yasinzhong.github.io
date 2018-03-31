@@ -20,6 +20,14 @@ q
 	text-align: center;
 }
 
+pre
+{
+	overflow: scroll;
+}
+
+
+
+
 #div-content,#div-header
 {
 	background-color:white;
