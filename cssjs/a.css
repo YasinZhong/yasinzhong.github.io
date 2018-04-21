@@ -27,11 +27,6 @@ pre
 }
 
 
-.normal
-{
-	
-}
-
 li
 {
 	border:1px solid darkgray;
@@ -51,6 +46,7 @@ li
 	border-radius: initial;
 	border: initial;
 	margin: initial;
+	text-align: initial;
 }/*该元素下的一切元素都会恢复到非定制*/
 
 
@@ -64,16 +60,12 @@ li
 	margin-bottom: 0.7em;
 	height: auto;
 	width: 50%;
-	box-shadow: 0px 3px 3px #888888;
+	box-shadow: 0px 3px 5px #888888;
 	padding:10px;
 	
 	border-radius:0px;
 	-moz-border-radius:0px; /* Old Firefox */
 	
-}
-#div-header
-{
-	box-shadow: 0px 3px 10px #888888;
 }
 
 
