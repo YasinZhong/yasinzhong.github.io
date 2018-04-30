@@ -29,6 +29,7 @@ pre
 
 li
 {
+	overflow: scroll;
 	border:1px solid darkgray;
 	border-radius:7px;
 	-moz-border-radius:7px; /* Old Firefox */
