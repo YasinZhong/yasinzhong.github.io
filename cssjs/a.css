@@ -26,10 +26,6 @@ pre
 	padding-bottom: 1em;
 }
 
-ul,ol
-{
-	overflow: scroll;
-}
 
 li
 {
