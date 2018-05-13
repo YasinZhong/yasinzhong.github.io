@@ -26,6 +26,7 @@
 			if( windoww>windowh && windowwcm>38)
 			{
 				document.getElementById(id).style.width=windoww*0.5+"px";
+				document.getElementsByTagName("body").style.fontsize("1.3em")
 			}
 			//调整展示样式，如果是移动设备【宽度大于高度是横屏，宽度小于 38 厘米，通常是移动设备，或者低分辨率的电脑
 		}
