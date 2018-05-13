@@ -21,14 +21,12 @@
 			{document.getElementById(id).style.width="95%";}//只要是竖屏状态。
 			
 			if( windoww>windowh && windowwcm<=38)
-			{document.getElementById(id).style.width=windoww*0.75+"px";}//cm小于 38 厘米，通常是横屏的移动设备或低分电脑
+			{document.getElementById(id).style.width=windoww*0.75+"px";}
+			//cm小于 38 厘米，通常是横屏的移动设备或低分电脑
 			
 			if( windoww>windowh && windowwcm>38)
-			{
-				document.getElementById(id).style.width=windoww*0.5+"px";
-				document.getElementsByTagName("body").style.fontsize("1.3em")
-			}
-			//调整展示样式，如果是移动设备【宽度大于高度是横屏，宽度小于 38 厘米，通常是移动设备，或者低分辨率的电脑
+			{document.getElementById(id).style.width=windoww*0.5+"px";}
+			//宽度大于高度是横屏，宽度大于 38 厘米，通常是高分辨率的电脑
 		}
 		FGoodWidth("div-content"); 
 		FGoodWidth("div-header");
