@@ -24,7 +24,9 @@
 			{document.getElementById(id).style.width=windoww*0.75+"px";}//cm小于 38 厘米，通常是横屏的移动设备或低分电脑
 			
 			if( windoww>windowh && windowwcm>38)
-			{document.getElementById(id).style.width=windoww*0.5+"px";}
+			{
+				document.getElementById(id).style.width=windoww*0.5+"px";
+			}
 			//调整展示样式，如果是移动设备【宽度大于高度是横屏，宽度小于 38 厘米，通常是移动设备，或者低分辨率的电脑
 		}
 		FGoodWidth("div-content"); 

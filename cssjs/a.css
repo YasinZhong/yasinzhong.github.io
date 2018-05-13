@@ -5,16 +5,15 @@ body
 {
 	color:rgb(100,100,100);
 	background-color:rgb(240,240,240);
-	font-family: 'KaiTi','FangSong';
+	font-family: 'KaiTi';
 }
 
 p 
 {
   line-height:1.74em;
   text-indent:2em;
-  font-weight: lighter; 
   font-size:1.1em;
-	font-family: 'KaiTi','FangSong';
+	font-family: 'KaiTi';
 }
 
 q
