@@ -60,7 +60,7 @@ li
 {
 	background-color:white;
 	margin: auto;
-	margin-bottom: 0.7em;
+	margin-bottom: 1em;
 	margin-top: 2em;
 	height: auto;
 	width: 50%;
@@ -74,8 +74,9 @@ li
 #div-header
 {
 	font-weight: lighter; 
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin: auto;
+	margin-top: 0.5em;
 }
 
 
