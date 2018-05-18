@@ -5,7 +5,6 @@ body
 {
 	color:rgb(100,100,100);
 	background-color:rgb(240,240,240);
-	font-family: 'KaiTi';
 }
 
 p 
@@ -60,8 +59,8 @@ li
 {
 	background-color:white;
 	margin: auto;
-	margin-bottom: 1em;
-	margin-top: 2em;
+	margin-bottom: 3em;
+	margin-top: 1em;
 	height: auto;
 	width: 50%;
 	box-shadow: 0px 0px 5px #888888;
@@ -74,7 +73,6 @@ li
 #div-header
 {
 	font-weight: lighter; 
-	font-size: 1.2em;
 	margin: auto;
 	margin-top: 0.5em;
 }
@@ -89,7 +87,6 @@ a,a:visited
 
 h1,h2,h3,h4,h5,h5
 {
-	font-family: 'KaiTi','FangSong';
 	font-weight: lighter; 
 	color:rgb(15,15,15);
 	margin-top: 2em;
