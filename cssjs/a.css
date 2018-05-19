@@ -12,7 +12,6 @@ p
   line-height:1.74em;
   text-indent:2em;
   font-size:1.1em;
-	font-family: 'KaiTi';
 }
 
 q
@@ -71,8 +70,7 @@ li
 	
 }
 #div-header
-{
-	font-weight: lighter; 
+{ 
 	margin: auto;
 	margin-top: 0.5em;
 }
@@ -102,5 +100,4 @@ img
 	border:1px solid;
 	border-radius:1em;
 	-moz-border-radius:1em;
-	/*box-shadow: 0px 0px 1em #555555;*/
 }
