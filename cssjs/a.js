@@ -18,7 +18,7 @@
 		function FGoodWidth(id)
 		{
 			if( windoww<windowh )
-			{document.getElementById(id).style.width="100%";}//只要是竖屏状态。
+			{document.getElementById(id).style.width="98%";}//只要是竖屏状态。
 			
 			if( windoww>windowh && windowwcm<=38)
 			{document.getElementById(id).style.width=windoww*0.75+"px";}
