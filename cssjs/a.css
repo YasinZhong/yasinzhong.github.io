@@ -36,7 +36,7 @@ li
 	
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
-	padding-left: 1em;
+	padding-left: 0.6em;
 	
 	margin-bottom: 0.6em;
 	margin-top: 0.6em;
@@ -62,16 +62,12 @@ li
 	margin-top: 1em;
 	height: auto;
 	width: 50%;
-	/*box-shadow: 0px 0px 5px #888888;*/
+	box-shadow: 0px 1px 5px #888888;
 	
 	padding:10px;
-	padding-left: 1em;
-	padding-right: 1em;
 	
-	border-radius:0px;
-	border: 1px;
-	border-color: gray;
-	-moz-border-radius:0px; /* Old Firefox */
+	border-radius:2px;
+	-moz-border-radius:2px; /* Old Firefox */
 	
 }
 #div-header
