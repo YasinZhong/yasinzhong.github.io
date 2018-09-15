@@ -5,10 +5,13 @@ title: 对 “S同学” 说
 
 <script type="text/javascript">
 	var psw=prompt("输入密码","");
-	if ( name==null | psw != "l")
+	if ( name==null | psw != "巴拉拉能量")
 	{
-		alert("未输入或密码错误。");
-		close();
+		alert("密码错误，请刷新重试");
+		psw=-1;
+		window.close();
+		window.onload = function(){var _body = document.body || document.documentElement; _body.innerHTML = '<h2>密码错误，请刷新重试</h2>'}
+		window.stop()
 	}
 </script>
 
