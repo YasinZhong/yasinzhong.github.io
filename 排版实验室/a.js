@@ -28,6 +28,3 @@
 			{document.getElementById(id).style.width=windoww*0.5+"px";}
 			//宽度大于高度是横屏，宽度大于 38 厘米，通常是高分辨率的电脑
 		}
-		FGoodWidth("div-content"); 
-		FGoodWidth("div-header");
-		FGoodWidth("idhr");
