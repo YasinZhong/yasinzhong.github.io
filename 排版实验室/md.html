@@ -4,10 +4,13 @@
 
 	<xmp theme="cerulean" style="display:none;" id="myDiv">
 <!--[if lt IE 9]><h2>你的浏览器太老了，请使用更先进的 "谷歌" 或 "火狐" 浏览器进行访问</h2><![endif]-->
-{{ content }}
+## 什么鬼
+
+你好
 	</xmp>
 
-	<script src="/strapdown.js"></script>
+	<script src="strapdown.js"></script>
+	<script src="a.js"></script>
 
 	<hr id="idhr"/>
 	<div id="div-header" style="text-align: center;" >
@@ -31,8 +34,7 @@ var conf = 'prod_7f9256c41a6f7751fe9b4de56330de1c';
 var width = window.innerWidth || document.documentElement.clientWidth; 
 if (width < 960) { 
 window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://cy-cdn.kuaizhan.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://cy-cdn.kuaizhan.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
-	<script src="/cssjs/a.js">//钟某自己来优化宽度</script>
-	<script>FGoodWidth("SOHUCS");</script>
+	<script>FGoodWidth("SOHUCS");//钟某自己来优化宽度</script>
 	<!--评论插件结束-->
 
 </html>

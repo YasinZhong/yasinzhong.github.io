@@ -1,0 +1,107 @@
+
+
+
+body
+{
+	color:rgb(70,70,70);
+	background-color:rgb(255,255,255);
+}
+
+p 
+{
+  line-height:1.74em;
+  text-indent:2em;
+  font-size:1.1em;
+}
+
+q
+{
+	font-style:italic;
+	display:block;
+	text-align: center;
+}
+
+pre
+{
+	overflow: scroll;
+	padding-bottom: 1em;
+}
+
+
+li
+{
+	border:1px solid darkgray;
+	border-radius:7px;
+	-moz-border-radius:7px; /* Old Firefox */
+	
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	padding-left: 0.6em;
+	
+	margin-bottom: 0.6em;
+	margin-top: 0.6em;
+}
+
+.normal *{
+	padding: initial;
+	border-radius: initial;
+	border: initial;
+	margin: initial;
+	text-align: initial;
+}/*该元素下的一切元素都会恢复到非定制*/
+
+
+
+
+
+#div-content
+{
+	background-color: white;
+	margin: auto;
+	margin-bottom: 3em;
+	margin-top: 1em;
+	height: auto;
+	width: 50%;
+	box-shadow: 0px 1px 5px #888888;
+	
+	padding:10px;
+	
+	border-radius:2px;
+	-moz-border-radius:2px; /* Old Firefox */
+	
+}
+#div-header
+{ 
+	margin: auto;
+	margin-top: 0.5em;
+}
+
+
+
+a,a:visited
+{
+	text-decoration:none;
+	color:rgb(42,122,226);
+}
+
+h1,h2,h3,h4,h5,h5
+{
+	font-weight: lighter; 
+	color:rgb(15,15,15);
+	margin-top: 2em;
+	text-align: center;
+}
+
+img
+{
+	display:block;
+	text-align: center;
+	margin: auto;
+	margin-top: 0.7em;
+	margin-bottom: 1em;
+	box-shadow: 0px,0px,5px,rgb(70,70,70);
+	
+	border:1px solid;
+	border-radius:1em;
+	-moz-border-radius:1em;
+}
