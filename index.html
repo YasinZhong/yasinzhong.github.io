@@ -1,39 +1,24 @@
 ---
-layout: default-index
-title: Yasin Zhong|blog
+layout: md
+title: 有麝自来香
 ---
 
-    <ol>
-　	{% for post in site.posts %}
-　　<li style="border:none;margin: initial;padding: 0em;">{{ post.date | date_to_string }}
-	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	</li>
-　　{% endfor %}
-    </ol>
-	
-	
-	<hr/>
-	
-	<style type="text/css">
-    li {
-        margin-top: -0.35em;
-        margin-bottom: -0.35em;
-		margin-left: -0.35em;
-		width: 90%;
-    }
-	hr {
-		align-content: center;
-		width: 84%;
-		
+<style>
+	li{
+		min-width: 20em;
+		border: 1px solid gray;
+		border-radius:0.3em;
+		margin: 0.3em;
+		padding: 0.3em;
+		display: inline-block;
 	}
-	</style>
+</style>
 
-	<ol>
-		<a href="http://a.caihe.org/post0/twi.html" >  <li>咕噜咕噜</li> </a><br/>
-	</ol>
+{% for post in site.posts %}- {{ post.date | date_to_string }} [{{ post.title }}]({{ site.baseurl }}{{ post.url }}){% endfor %}
 	
-	<ul>
-		<a href="http://a.caihe.org/post1/2018-3-13-BookShare.html" ><li>书籍</li></a><br/>
-		<a href="http://a.caihe.org/post1/Daubs.html" ><li>涂鸦-My Daubs</li></a><br/>
-		<a href="http://a.caihe.org/post1/Photograph.html" ><li>照相-MyPhotoGraphs</li></a><br/>
-	</ul>
+<hr/>
+
+- [咕噜咕噜](http://a.caihe.org/post0/twi.html")
+- [书籍分享](http://a.caihe.org/post1/2018-3-13-BookShare.html)
+- [涂鸦-My Daubs](http://a.caihe.org/post1/Daubs.html)
+- [照相-MyPhotoGraphs](http://a.caihe.org/post1/Photograph.html)
