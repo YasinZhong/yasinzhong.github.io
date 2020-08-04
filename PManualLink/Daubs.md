@@ -1,5 +1,5 @@
 ---
-layout: md
+layout: md-noc
 title: 画画-My Daubs
 ---
 
