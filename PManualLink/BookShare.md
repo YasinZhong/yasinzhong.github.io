@@ -1,17 +1,7 @@
 ---
-layout: md
+layout: md-sl
 title: 书籍
 ---
-
-<style>
-	li{
-		border: 1px solid gray;
-		border-radius:0.3em;
-		margin: 0.3em;
-		padding: 0.3em;
-		display: inline-block;
-	}
-</style>
 
 ### 读过的部分书籍及态度
 
@@ -23,8 +13,8 @@ title: 书籍
 - 推荐《十七年表》曹寇
 - 推荐《漂亮朋友》莫泊桑
 - 推荐《朗读者》 本哈德·施林克
-- 已阅《爱丽丝梦游仙境》
 - 推荐《鲁滨逊漂流记》
+- 已阅《爱丽丝梦游仙境》
 
 杂技
 

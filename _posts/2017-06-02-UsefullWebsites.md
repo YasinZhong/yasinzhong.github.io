@@ -1,23 +1,11 @@
 ---
-layout: md
+layout: md-sl17
 title: 网站收藏
 ---
 
-<style>
-	li{
-		min-width: 17em;
-		border: 1px solid gray;
-		border-radius:0.3em;
-		margin: 0.3em;
-		padding: 0.3em;
-		display: inline-block;
-		font-weight:bold;
-	}
-</style>
-
 故事大致是这样的：东方有个年轻国王，登基后一心要把他的王国治理好，就把国内的贤士都召来，命令他们去收集全世界的智识慧言，编共成册供他阅读，这样他就能成为世上最英明的君王。贤士们遵命而去。三十年后。他们牵着一队骆驼回来了. . .
 
-———— 毛姆 | 没有一本一劳永逸的书
+～～～～～　毛姆 | 没有一本一劳永逸的书
 
 ### 订阅
 
