@@ -6,13 +6,18 @@ img
 	margin: auto;
 	margin-top: 0.7em;
 	margin-bottom: 1em;
-	text-align: center;
+	display:block;
 
-	/* 位置同排设置 */
-	display:inline-block;
+	max-height: 20em;
+	min-height: 1em;
 	
 	/* 边缘效果设置 */
 	-moz-border-radius:1em;
 	border-radius:1em;
 	box-shadow: 0px,0px,5px,rgb(70,70,70);
+}
+
+img:hover{
+	transition: all .4s;
+	transform: scale(1.4);
 }
