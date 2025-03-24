@@ -1,9 +1,7 @@
 ---
 layout: md
-title: 画画-My Daubs
+title: 画画
 ---
-
-Daub,means an unskillful painting.
 
 ### 2017-6-20 Mondrian.
 
