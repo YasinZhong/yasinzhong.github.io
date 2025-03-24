@@ -1,5 +1,5 @@
 ---
-layout: md-sl17
+layout: md
 title: 网站收藏
 ---
 
