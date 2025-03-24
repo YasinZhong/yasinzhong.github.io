@@ -1,6 +1,6 @@
 ---
 layout: md
-title: 谏言
+title: 我对自己的建议
 ---
 
 ### 认识自己
