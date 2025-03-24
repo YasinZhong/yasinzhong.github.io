@@ -1,5 +1,5 @@
 ---
-layout: md-noc
+layout: md
 title: 摄影-MyPhotoGraphs
 ---
 
