@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: md
 title: 设计的牢骚
 ---
 
