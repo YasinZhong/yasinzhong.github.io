@@ -1,5 +1,5 @@
 ---
-layout: md-sl
+layout: md
 title: 书籍
 ---
 
