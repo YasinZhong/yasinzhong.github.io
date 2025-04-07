@@ -1,6 +1,6 @@
 ---
 layout: md
-title: 彩搜搜索
+title: 搜索工具——Z搜
 ---
 #### {{ page.title }}
 
