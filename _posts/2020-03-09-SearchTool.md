@@ -1,6 +1,6 @@
 ---
 layout: md
-title: 搜索工具——Z搜
+title: 我的自制搜索工具-Z搜
 ---
 #### {{ page.title }}
 
